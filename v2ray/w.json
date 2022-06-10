@@ -1,0 +1,110 @@
+[
+    {
+      "type": "field",
+      "port": "",
+      "inboundTag": [],
+      "outboundTag": "direct",
+      "ip": [
+        "223.5.5.5/32",
+        "119.29.29.29/32",
+        "180.76.76.76/32",
+        "114.114.114.114/32",
+        "geoip:cn",
+        "geoip:private"
+      ],
+      "domain": [],
+      "protocol": [],
+      "enabled": true
+    },
+    {
+      "type": "field",
+      "port": "",
+      "inboundTag": [],
+      "outboundTag": "proxy",
+      "ip": [
+        "1.1.1.1/32",
+        "1.0.0.1/32",
+        "8.8.8.8/32",
+        "8.8.4.4/32",
+        "geoip:us",
+        "geoip:ca",
+        "geoip:telegram"
+      ],
+      "domain": [],
+      "protocol": [],
+      "enabled": true
+    },
+    {
+      "port": "",
+      "inboundTag": [],
+      "outboundTag": "direct",
+      "ip": [],
+      "domain": [
+        "domain:cm.steampowered.com"
+      ],
+      "protocol": [],
+      "enabled": true
+    },
+    {
+      "type": "field",
+      "port": "",
+      "inboundTag": [],
+      "outboundTag": "block",
+      "ip": [],
+      "domain": [
+        "geosite:category-ads-all"
+      ],
+      "protocol": [],
+      "enabled": true
+    },
+    {
+      "type": "field",
+      "port": "",
+      "inboundTag": [],
+      "outboundTag": "direct",
+      "ip": [],
+      "domain": [
+        "geosite:private",
+        "geosite:apple-cn",
+        "geosite:google-cn",
+        "geosite:tld-cn",
+        "geosite:category-games@cn"
+      ],
+      "protocol": [],
+      "enabled": true
+    },
+    {
+      "type": "field",
+      "port": "",
+      "inboundTag": [],
+      "outboundTag": "proxy",
+      "ip": [],
+      "domain": [
+        "geosite:geolocation-!cn"
+      ],
+      "protocol": [],
+      "enabled": true
+    },
+    {
+      "type": "field",
+      "port": "",
+      "inboundTag": [],
+      "outboundTag": "direct",
+      "ip": [],
+      "domain": [
+        "geosite:cn"
+      ],
+      "protocol": [],
+      "enabled": true
+    },
+    {
+      "type": "field",
+      "port": "0-65535",
+      "inboundTag": [],
+      "outboundTag": "proxy",
+      "ip": [],
+      "domain": [],
+      "protocol": [],
+      "enabled": true
+    }
+  ]
