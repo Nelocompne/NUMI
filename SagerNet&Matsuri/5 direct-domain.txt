@@ -1,0 +1,5 @@
+geosite:private
+geosite:apple-cn
+geosite:google-cn
+geosite:tld-cn
+geosite:category-games@cn
